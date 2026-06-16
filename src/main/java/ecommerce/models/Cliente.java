@@ -13,7 +13,11 @@ public class Cliente {
 }
 
 public String exibirResumo() {
-    
+    return "Cliente: " + nome + 
+    "\nEmail " + email +
+    "\nRua " + endereco.rua() +
+    "\nNúmero " + endereco.numero() +
+    "\nCEP " + endereco.cep();
 }
 
 }
