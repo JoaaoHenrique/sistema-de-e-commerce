@@ -1,9 +1,4 @@
 package ecommerce.models;
 
-public class Endereco {
-
-    public String rua;
-    public String numero;
-    public String cep;
-    
+public record Endereco(String rua, String numero, String cep) {
 }
