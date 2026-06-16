@@ -1,8 +1,4 @@
 package ecommerce.models;
 
-public class Categoria {
-
-    public String nome;
-    public String descricao;
-    
+public record Categoria(String nome, String descricao) {
 }
