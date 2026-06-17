@@ -1,6 +1,6 @@
 package ecommerce.models;
 
-public class Itempedido {
+public class ItemPedido {
 
     private Produto produto;
     private int quantidade;
@@ -11,7 +11,7 @@ public class Itempedido {
     }
 
     public double calcularSubtotal() {
-
+        return produto.getPreco() * quantidade;
     }
     
 }
