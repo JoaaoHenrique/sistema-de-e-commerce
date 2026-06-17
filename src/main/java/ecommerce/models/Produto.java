@@ -3,7 +3,7 @@ package ecommerce.models;
 public class Produto {
 
     private String nome;
-    private int preco;
+    private double preco;
     private Categoria categoria;
 
     public Produto(String nome, int preco, Categoria categoria) {
